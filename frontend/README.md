@@ -70,4 +70,7 @@ export default defineConfig([
     },
   },
 ])
+
+
+// http://localhost:3000/
 ```

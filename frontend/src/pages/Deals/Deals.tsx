@@ -79,7 +79,7 @@ const Deals = () => {
   );
 };
 
-const Stat = ({ title, value }: any) => (
+const Stat = ({ title, value }: { title: string; value: string }) => (
   <div className="bg-gray-800 p-4 rounded-xl">
     <p className="text-gray-400 text-sm">{title}</p>
     <h2 className="text-xl font-bold">{value}</h2>
